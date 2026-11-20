@@ -1,5 +1,4 @@
-# Subway Surfers 
-**Students:** i240053 · i240061 · i240054    
+# Subway Surfers
 **Language:** C++  
 **Graphics & Audio Library:** SFML 2.5  
 **Build System:** CMake (or direct Makefile)
@@ -23,6 +22,7 @@
 13. [Class Descriptions](#class-descriptions)
 14. [File Descriptions](#file-descriptions)
 15. [Common Errors & Fixes](#common-errors--fixes)
+16. [Contributors](#contributors)
 
 ---
 
@@ -507,4 +507,10 @@ cd ..
 
 ---
 
-*README generated from full source code analysis of all .h, .cpp, CMakeLists.txt, and Makefile files.*
+## Contributors
+
+| Student ID | Name | GitHub |
+| :--- | :--- | :--- |
+| i240053 | Maham Anjum | [@mahamanjum99](https://github.com/mahamanjum99) |
+| i240061 | Romaisa | [@Ru-1234](https://github.com/Ru-1234) |
+| i240054 | Manahil Mazhar | - |
