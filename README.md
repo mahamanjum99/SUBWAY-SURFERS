@@ -1,5 +1,4 @@
-# Subway Surfers 
-**Students:** i240053 · i240061 · i240054    
+# Subway Surfers
 **Language:** C++  
 **Graphics & Audio Library:** SFML 2.5  
 **Build System:** CMake (or direct Makefile)
@@ -23,6 +22,7 @@
 13. [Class Descriptions](#class-descriptions)
 14. [File Descriptions](#file-descriptions)
 15. [Common Errors & Fixes](#common-errors--fixes)
+16. [Contributors](#contributors)
 
 ---
 
@@ -350,11 +350,11 @@ All obstacles inherit from the base `Obstacle` class and scroll downward at the 
 
 | Obstacle | Image | Can Jump Over | Can Slide Under | Notes |
 |----------|-------|:-------------:|:---------------:|-------|
-| **Train** | train.png | ❌ No | ✅ Yes | Deadly if you run into it; must slide under |
-| **Barrier** | barrier.png | ✅ Yes | ❌ No | Jump over it |
-| **Cone** | cone.png | ✅ Yes | ❌ No | Jump over it |
-| **Fence** | fence.png | ❌ No | ✅ Yes | Slide under it |
-| **Policeman** | policeman.png | ✅ Yes | ❌ No | Jump over it |
+| **Train** | train.png | No | Yes | Deadly if you run into it; must slide under |
+| **Barrier** | barrier.png | Yes | No | Jump over it |
+| **Cone** | cone.png | Yes | No | Jump over it |
+| **Fence** | fence.png | No | Yes | Slide under it |
+| **Policeman** | policeman.png | Yes | No | Jump over it |
 
 **If you have a Shield active** — hitting an obstacle destroys the obstacle instead of ending the game (one hit protection).
 
@@ -507,4 +507,10 @@ cd ..
 
 ---
 
-*README generated from full source code analysis of all .h, .cpp, CMakeLists.txt, and Makefile files.*
+## Contributors
+
+| Student ID | Name | GitHub |
+| :--- | :--- | :--- |
+| i240053 | Maham Anjum | [@mahamanjum99](https://github.com/mahamanjum99) |
+| i240061 | Romaisa | [@Ru-1234](https://github.com/Ru-1234) |
+| i240054 | Manahil Mazhar | - |
